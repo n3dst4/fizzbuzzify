@@ -1,0 +1,57 @@
+{
+  "main": "__build/fizzbuzzify.js",
+  "browser": "src/fizzbuzzify.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir __build --source-maps inline",
+    "test": "karma start"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "dependencies": {
+    "babel": "^5.8.23",
+    "babelify": "^6.1.2",
+    "envify": "^3.4.0"
+  },
+  "name": "@n3dst4/fizzbuzzify",
+  "version": "1.0.0",
+  "description": "Turn numbers into their corresponding fizzbuzz result",
+  "author": "Neil de Carteret <n3dst4@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/n3dst4/fizzbuzzify",
+  "devDependencies": {
+    "babel-eslint": "^4.0.5",
+    "eslint": "^1.1.0",
+    "eslint-plugin-react": "^3.2.2",
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2",
+    "karma": "^0.13.9",
+    "karma-browserify": "^4.3.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-ie-launcher": "^0.2.0",
+    "karma-mocha": "^0.2.0",
+    "karma-notify-reporter": "^0.1.1",
+    "karma-teamcity-reporter": "^0.2.1"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parser": "babel-eslint",
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "quotes": 0,
+      "comma-dangle": 0,
+      "no-unused-vars": [
+        2,
+        {
+          "vars": "all",
+          "args": "none"
+        }
+      ]
+    }
+  }
+}
