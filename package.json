@@ -1,6 +1,6 @@
 {
   "name": "@n3dst4/fizzbuzzify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turn numbers into their corresponding fizzbuzz result",
   "author": "Neil de Carteret <n3dst4@gmail.com>",
   "license": "ISC",
@@ -16,8 +16,7 @@
   "browserify": {
     "transform": []
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel": "^5.8.23",
     "envify": "^3.4.0",
