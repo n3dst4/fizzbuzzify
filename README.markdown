@@ -1,6 +1,8 @@
 @n3dst4/fizzbuzzify
 ===================
 
+![Travis status](https://travis-ci.org/n3dst4/fizzbuzzify.svg)
+
 Turn numbers into their corresponding fizzbuzz result
 
 ## Usage
