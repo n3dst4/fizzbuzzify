@@ -19,12 +19,12 @@
   "dependencies": {},
   "devDependencies": {
     "babel": "^5.8.23",
-    "envify": "^3.4.0",
     "babel-eslint": "^4.0.5",
+    "babelify": "^6.4.0",
+    "chai": "^3.2.0",
+    "envify": "^3.4.0",
     "eslint": "^1.1.0",
     "eslint-plugin-react": "^3.2.2",
-    "chai": "^3.2.0",
-    "mocha": "^2.3.2",
     "karma": "^0.13.9",
     "karma-browserify": "^4.3.0",
     "karma-chrome-launcher": "^0.2.0",
@@ -32,7 +32,8 @@
     "karma-ie-launcher": "^0.2.0",
     "karma-mocha": "^0.2.0",
     "karma-notify-reporter": "^0.1.1",
-    "karma-teamcity-reporter": "^0.2.1"
+    "karma-teamcity-reporter": "^0.2.1",
+    "mocha": "^2.3.2"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
