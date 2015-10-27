@@ -26,8 +26,9 @@ console.log(fizzbuzzify(15)) // "FizzBuzz"
 
 ## Hacking and contribution
 
-The code is written in es6 and transpiled into es5 by babel. This is done
-automatically before publishing to npm by the `prepublish` script config.
+The code is written in es6 and transpiled into the `__build` folder as es5 by
+babel. This is done automatically before publishing to npm by the `prepublish`
+script config.
 
 If you're working on this package and you want to generate the transpiled
 output, run:
