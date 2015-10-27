@@ -9,7 +9,7 @@ Turn numbers into their corresponding fizzbuzz result
 
 Install:
 ```sh
-npm install fizzbuzzify
+npm install fizzbuzzify --save
 ```
 
 Use:
@@ -18,7 +18,7 @@ Use:
 import fizzbuzzify from "@n3dst4/fizzbuzzify"
 
 // or cjs/node/browserify-style:
-var fizzbuzzify = require("fizzbuzzify")
+var fizzbuzzify = require("@n3dst4/fizzbuzzify")
 
 // then:
 console.log(fizzbuzzify(15)) // "FizzBuzz"
