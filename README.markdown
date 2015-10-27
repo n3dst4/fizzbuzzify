@@ -63,5 +63,8 @@ and re-running the tests when the code changes.
 
 ## For the love of gosh, why?
 
-This package is an exercise in cramming as many best-practices into a codebase
-as possible.
+This package is an exercise in cramming as many good practices into a codebase
+as possible. Tests, documentation, modularised code, transpilation, it's all
+here. See also
+ [n3dst4/fizzbuzz-cli](https://github.com/n3dst4/fizzbuzz-cli), which is an
+ implementations of the actual "fizzbuzz" program using this module.
