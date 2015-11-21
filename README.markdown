@@ -64,5 +64,5 @@ and re-running the tests when the code changes.
 
 This package is part of a larger project that's half joke and half genuine
 demonstration of "cool things in software development". Go see
-[@n3dst4/fizzbuzz-cli](https://github.com/n3dst4/fizzbuzz-cli) for the full
+[fizzbuzz-cli](https://github.com/n3dst4/fizzbuzz-cli) for the full
 write-up.
