@@ -1,5 +1,4 @@
-@n3dst4/fizzbuzzify
-===================
+# fizzbuzzify
 
 ![Travis status](https://travis-ci.org/n3dst4/fizzbuzzify.svg)
 
@@ -15,10 +14,10 @@ npm install fizzbuzzify --save
 Use:
 ```js
 // es6 style import:
-import fizzbuzzify from "@n3dst4/fizzbuzzify"
+import fizzbuzzify from "fizzbuzzify"
 
 // or cjs/node/browserify-style:
-var fizzbuzzify = require("@n3dst4/fizzbuzzify")
+var fizzbuzzify = require("fizzbuzzify")
 
 // then:
 console.log(fizzbuzzify(15)) // "FizzBuzz"
