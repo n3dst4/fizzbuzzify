@@ -9,9 +9,7 @@
   "scripts": {
     "prepublish": "babel src --out-dir __build --source-maps inline",
     "watch": "babel --watch src --out-dir __build --source-maps inline",
-    "test": "karma start",
-    "mocha": "mocha",
-    "mocha-watch": "mocha --watch"
+    "test": "mocha"
   },
   "browserify": {
     "transform": []
@@ -25,14 +23,6 @@
     "envify": "^3.4.0",
     "eslint": "^1.1.0",
     "eslint-plugin-react": "^3.2.2",
-    "karma": "^0.13.9",
-    "karma-browserify": "^4.3.0",
-    "karma-chrome-launcher": "^0.2.0",
-    "karma-firefox-launcher": "^0.1.6",
-    "karma-ie-launcher": "^0.2.0",
-    "karma-mocha": "^0.2.0",
-    "karma-notify-reporter": "^0.1.1",
-    "karma-teamcity-reporter": "^0.2.1",
     "mocha": "^2.3.2"
   },
   "eslintConfig": {
