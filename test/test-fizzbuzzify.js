@@ -1,7 +1,7 @@
 /*global describe, it*/
 
 import chai from "chai";
-import fizzbuzzify from "../src/fizzbuzzify";
+import { fizzbuzzify } from "../src/fizzbuzzify";
 
 const expect = chai.expect;
 

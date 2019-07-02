@@ -8,13 +8,13 @@ Turn numbers into their corresponding fizzbuzz result
 
 Install:
 ```sh
-npm install fizzbuzzify --save
+npm install fizzbuzzify
 ```
 
 Use:
 ```js
 // es6 style import:
-import fizzbuzzify from "fizzbuzzify"
+import { fizzbuzzify } from "fizzbuzzify";
 
 // or cjs/node/browserify-style:
 var fizzbuzzify = require("fizzbuzzify")
@@ -22,6 +22,9 @@ var fizzbuzzify = require("fizzbuzzify")
 // then:
 console.log(fizzbuzzify(15)) // "FizzBuzz"
 ```
+
+`fizzbuzzify` is a named export because I'm preferring that style these days,
+but also a default export for legacy compatibility.
 
 ## Hacking and contribution
 

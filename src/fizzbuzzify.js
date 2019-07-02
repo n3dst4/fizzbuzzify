@@ -1,4 +1,4 @@
-export default function fizzbuzzify (value) {
+export const fizzbuzzify = (value) => {
   const type = typeof(value);
   const isNumber = type === "number" || ((type === "object") &&
     Object.prototype.toString.call(value) === "[object Number]" );
@@ -12,3 +12,5 @@ export default function fizzbuzzify (value) {
          (value % 5 === 0)? "Buzz" :
          value.toString();
 }
+
+export default fizzbuzzify;
