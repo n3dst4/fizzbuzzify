@@ -1,6 +1,6 @@
 {
   "name": "fizzbuzzify",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "Turn numbers into their corresponding fizzbuzz result",
   "author": "Neil de Carteret <n3dst4@gmail.com>",
   "license": "ISC",
