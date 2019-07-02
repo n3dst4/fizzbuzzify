@@ -19,7 +19,7 @@ describe("fizzbuzzify", function () {
     expect(fizzbuzzify(3000003)).to.equal(fizz);
   })
 
-  it("should return \"Buzz\" for multiples of 3", function () {
+  it("should return \"Buzz\" for multiples of 5", function () {
     expect(fizzbuzzify(5)).to.equal(buzz);
     expect(fizzbuzzify(10)).to.equal(buzz);
     expect(fizzbuzzify(20)).to.equal(buzz);
@@ -27,7 +27,7 @@ describe("fizzbuzzify", function () {
     expect(fizzbuzzify(2000005)).to.equal(buzz);
   })
 
-  it("should return \"FizzBuzz\" for multiples of 3", function () {
+  it("should return \"FizzBuzz\" for multiples of 15", function () {
     expect(fizzbuzzify(15)).to.equal(fizzBuzz);
     expect(fizzbuzzify(30)).to.equal(fizzBuzz);
     expect(fizzbuzzify(150)).to.equal(fizzBuzz);
